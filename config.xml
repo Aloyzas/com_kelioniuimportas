@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset 
+        name="zoo"
+        label="ZOO"
+        description="Nustatymai susiejimui su ZOO componentu.">
+
+        <field
+            name="application_id"
+            type="text"
+            default="1"
+            label="Application ID"
+            description="ZOO programėlės ID"
+            required="true">           
+        </field>   
+        <field
+            name="vezejas"
+            type="text"
+            default="gruda"
+            label="Vežėjas"
+            description="Vežėjas"
+            required="true">           
+        </field>  		
+
+    </fieldset>	
+</config>
